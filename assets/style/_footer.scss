@@ -32,6 +32,10 @@
 
 }
 
+#icon-twitter {
+    display: none;
+}
+
 .fav_icons {
     flex-direction: row;
     gap: 25px;
@@ -39,10 +43,7 @@
     img {
         cursor: pointer;
     }
-    img:hover {
-        // color: white;
-        // background-color: white;
-        fill: white;
-    }
+    
 }
+
 
