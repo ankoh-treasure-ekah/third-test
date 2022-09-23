@@ -1,0 +1,105 @@
+.section-one-container {
+    // width: 100%;
+    flex-direction: row;
+    gap: 0px;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin: 0px;
+
+    div {
+        width: 50%;
+    }
+
+    img {
+        // flex-basis: 50%;
+        width: 50%;
+        flex-shrink: 1;
+    }
+}
+
+.img-with-text {
+    position: relative;
+
+    img {
+        width: 100%;
+    }
+
+    h1 {
+        font-family: $Family_fraunces;
+        position: absolute;
+        bottom: 30%;
+        left: 38%;
+        color: $Dark_desaturated_cyan;
+        font-weight: 900;
+        font-size: 30px;
+    }
+
+    p {
+        position: absolute;
+        font-size: 15px;
+        font-family: $Family_fraunces;
+        bottom: 17%;
+        left: 27%;
+        // width: 299px;
+        text-align: center;
+        color: $Dark_desaturated_cyan;
+        font-weight: 500;
+    }
+}
+
+.img-with-text-sec-two {
+    h1 {
+        color: $Very_dark_desaturated_blue;
+    }
+    
+    p {
+        color: $Very_dark_desaturated_blue;
+    }
+}
+
+.section-one-txt-box {
+    flex-direction: column;
+    padding: 130px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+
+    h1 {
+        font-size: 40px;
+        font-family: $Family_fraunces;
+        color: $Very_dark_desaturated_blue;
+    }
+
+    p {
+        font-size: 16px;
+        color: grey;
+        font-family: $Family_Barlow;
+        line-height: 2rem;
+    }
+
+    button {
+        font-family: $Family_fraunces;
+        display: flex;
+        align-items: baseline;
+        font-size: 15px;
+        font-weight: 900;
+        padding: 5px 15px;
+        border-radius: 20px;
+        border: none;
+        background: linear-gradient(to bottom,white 40%, rgb(255, 165, 0));
+        cursor: pointer;
+    }
+
+    #first-button:hover {
+        // background-color: yellow;
+        background: linear-gradient(to bottom,white 40%, $Yellow);
+
+    }
+    #second-button:hover {
+        // background-color: yellow;
+        background: linear-gradient(to bottom,white 40%, $Soft_red);
+
+    }
+
+    
+}

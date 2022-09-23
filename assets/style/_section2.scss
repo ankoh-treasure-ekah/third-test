@@ -1,0 +1,61 @@
+.section-two {
+    background: rgb(255, 251, 248);
+    margin: 0px;
+    padding: 0px;
+}
+
+.section-two-container {
+    padding: 120px 120px;
+
+}
+
+.section-two-content {
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+        font-family: $Family_fraunces;
+        color: grey;
+        margin-bottom: 50px;
+        letter-spacing: 5px;
+    }
+}
+
+.client-testimonials {
+    gap: 20px;
+}
+
+.testimony {
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+
+    img {
+        height: 70px;
+        width: 70px;
+        border-radius: 40px;
+        margin-bottom: 50px;
+    }
+
+    p {
+        font-family: $Family_Barlow;
+        margin-bottom: 50px;
+        text-align: center;
+        color: grey;
+        font-size: 14px;
+        line-height: 1.8rem;
+    }
+    
+    strong {
+        font-size: 18px;
+        margin-bottom: 12px;
+        font-family: $Family_fraunces;
+    }
+
+    h4 {
+        font-size: 12px;
+        color: $Dark_desaturated_cyan;
+        color: grey;
+        font-family: $Family_fraunces;
+    }
+}

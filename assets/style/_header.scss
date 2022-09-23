@@ -1,0 +1,91 @@
+
+.header-container {
+    // background: $Dark_blue;
+    // height: 500px;
+    height: 100vh;
+    background-image: url('image-header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20px 50px;
+
+    nav {
+        justify-content: space-between;
+        align-items: center;
+        color: #fff;
+
+        h3 {
+            font-size: 35px;
+        }
+
+        ul {
+            gap: 45px;
+            align-items: center;
+
+            li {
+                font-size: 1.1rem;
+                list-style-type: none;
+
+                a {
+                    color: #fff;
+                    text-decoration: none;
+                }
+            }
+
+            button {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 13px 25px;
+                border-radius: 20px;
+                font-weight: 900;
+                font-size: 15px;
+                border: none;
+                background: white;
+                cursor: pointer;
+            }
+
+            button:hover {
+                background: rgb(111, 206, 254);
+            }
+        }
+    }
+}
+
+.header-text-section {
+    max-width: 60%;
+    margin: 80px auto;
+}
+
+.header-text-content-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        color: #fff;
+        font-family: $Family_fraunces;
+        font-size: 50px;
+        margin-bottom: 85px;
+        word-spacing: 0.5rem;
+        letter-spacing: 0.5rem;
+    }
+
+    @keyframes bounce {
+        from{margin-top: 0px;}
+        to{margin-top: 100px;}
+        
+    }
+
+    img {
+        margin-top: 0px;
+        animation-name: bounce;
+        animation-duration: 0.5s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse;
+    }
+
+
+}
+
+
